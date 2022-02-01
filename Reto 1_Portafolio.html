@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valeria Cerpa</title>
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <img src="./Foto/foto-valeria.jpg" alt="Foto de Valeria" width="120px"/>
+        <br>
+        <ul>
+            <li><a href="#">Perfil</a></li>
+            <li><a href="#">Experiencia</a></li>
+            <li><a href="#">Habilidades</a></li>
+            <li><a href="#">Publicaciones</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul> 
+        </nav>
+        <h1>Valeria Cerpa</h1>  
+    </header>
+    
+    <main>
+        <section>          
+            <h2>💻Desarrolladora💻 | 👩‍💻Frontend👩‍💻 | ✏️Arquitecta✏️</h2>
+             <p>Arquitecta peruana que se encuentra aprendiendo desarrollo web. <br>
+                Actualmente me estoy preparando para ser frontend. <br>
+                Esto fue posible gracias a la beca Talento Digital</p>
+            <div>
+            <br>
+            <h2>Conóceme</h2>
+            <p>Descarga mis documentos...</p>
+                <button>CV</button>
+                <button>Portafolio</button>
+            </div>  
+            <br>          
+        </section>  
+    </main>
+
+    <section class="table">
+        <h2>Habilidades</h2>
+        <table>
+            <thead>
+                <tr>
+                  <th>Adobe Creative Suite</th>
+                  <th>Escritura</th>
+                  <th>Diseño</th>
+                  <th>Idiomas</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Photoshop</td>
+                  <td>Illustrator</td>
+                  <td>InDesign</td>
+                  <td>After Effects</td>
+                </tr>
+                <tr>
+                  <td>Ensayos</td>
+                  <td>Artículos</td>
+                  <td>Tesis</td>
+                  <td>Monografía</td>
+                </tr>
+                <tr>
+                  <td>Español</td>
+                  <td>Inglés</td>
+                  <td>Francés</td>
+                  <td>Señas</td>
+                </tr>
+              </tbody>
+        </table>
+    </section>
+    <br>
+
+    <form>
+        <h2>¿Deseas contactarme?</h2>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="¿Cuál es tu nombre?" required/>
+        <hr />
+
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" placeholder="¿Cuál es tu apellido?" required/>  
+        <hr />  
+
+        <label for="pais-ciudad">País y ciudad</label>
+        <input type="text" id="pais-ciudad" placeholder="¿Dónde vives?" required/>  
+        <hr />  
+        
+        <p>Género</p>
+        <input type="radio" name="sexo" id="sexo" value="femenino">
+        <label for="">Femenino</label>
+        <input type="radio" name="sexo" id="sexo" value="masculino">
+        <label for="">Masculino</label>
+        <input type="radio" name="sexo" id="sexo" value="otros">
+        <label for="">Prefiero no especificar</label>
+        <hr />
+
+        <p>Déjame un mensaje</p>  
+        <textarea placeholder="Mensaje" name="mensaje" id="mensaje" cols="30" rows="8" required></textarea>
+        <hr />
+      
+        <label for="photo">¿Quieres explicarme tu pregunta con un dibujo?</label><br>
+        <br>
+        <input type="file" id="foto" />
+        <hr />
+
+        <label for="grado">Área del proyecto web</label>
+        <br>
+        <br>
+        <select name="grado" id="">
+            <option value="Elegir">Elige una opción...</option>
+            <option value="Elegir">Web estática</option>
+            <option value="Optimizar">Web dinámica</option>
+            <option value="Accesibiilidad">Comercio electrónico</option>
+            <option value="Mantenimiento">Portal web app</option>
+            <option value="Diseño">App web con gestor de contenidos</option>
+            <option value="Desarrollo">Web de eventos</option>
+            <option value="Asesoría">Proyecto académico</option>
+        </select>
+        <hr />
+                
+        <label for="grado">Elige el paquete de tu preferencia<br>
+        </label>      
+        <br>
+        <input type="checkbox" id=""opcion1" name="s">
+        <label for="s">Análisis + Planificación + Diseño</label><br>
+        <input type="checkbox" id="opcion2" name="s">
+        <label for="s">Análisis + Planificación + Diseño + Contenidos</label><br>
+        <input type="checkbox" id="opcion3" name="s">
+        <label for="s">Análisis + Planificación + Diseño + Contenidos + Desarrollo</label><br>
+        <input type="checkbox" id="opcion4" name="s">
+        <label for="s">Análisis + Planificación + Diseño + Contenidos + Desarrollo + Pruebas</label><br>
+        <input type="checkbox" id="opcion5" name="s">
+        <label for="s">Análisis + Planificación + Diseño + Contenidos + Desarrollo + Pruebas + Lanzamiento</label><br>
+        <hr />
+            
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Limpiar">
+    </form>
+
+    <h3>Muchas gracias por contactarme</h3>
+    <p>He recibido tu mensaje perfectamente. Me contactaré contigo lo antes posible.</p>
+
+</body>
+
+
+<br>
+<footer>
+    <a href="https://www.linkedin.com/in/valeria-cerpa-salas-954713136/" class="footer__link">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin" width="36px">
+    </a>
+    <a href="https://github.com/vcerpasalas" class="footer__link">
+        <img src="https://cdn-icons-png.flaticon.com/512/270/270798.png" alt="github" width="36px">
+    </a>
+    <a href="https://www.facebook.com/valeria.cerpa2/" class="footer__link">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="facebook" width="36px">
+    </a>
+    <a href="https://web.whatsapp.com/" class="footer__link">
+        <img src="https://cdn-icons-png.flaticon.com/512/220/220236.png" alt="whatsapp" width="36px">
+    </a>
+    <a href="https://gmail.com" class="footer__link">
+        <img src="https://cdn-icons-png.flaticon.com/512/893/893257.png" alt="email" width="36px">
+    </a>
+    <p>Desarrollado con ♥ por Valeria Cerpa en Arequipa-Perú</p>
+
+</footer>
+
+</html>
+
+
+
+
+
+
+
