@@ -1,6 +1,6 @@
 .body {
     font-family: 'Raleway', sans-serif;
-    margin: 0;
+    margin: 10px;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -86,6 +86,14 @@
     margin: 0;
 }
 
+.perfil__foto {
+    justify-content: center;
+}
+
+.foto {
+    border-radius: 50px;
+}
+
 .perfil__info-description {
     font-weight: 500;
     font-size: 0.8rem;
@@ -128,4 +136,18 @@
     background-color: lightgrey;
     color: var(--inverse-text-color);
     padding: 2rem 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
 }
