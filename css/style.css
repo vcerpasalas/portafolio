@@ -1,0 +1,123 @@
+.header {
+    background-color: rgb(66, 66, 66);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 0.25rem 0.25rem 0 rgb(80, 79, 79);
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1024px;
+    height: 4rem;
+    padding: 0 2rem;
+    margin: auto;
+}
+
+.header-nav__link-logo-container {
+    height: 3.5rem;
+}
+
+.header-nav__link-logo {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.header-nav__link-list {
+    position: fixed;
+    color: rgb(54, 54, 54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s;
+}
+
+.header-nav__link-item {
+    list-style: none;
+}
+
+.header-nav__link {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgb(238, 146, 71);
+    transition: all 0.25s;
+}
+
+.header-nav__link:hover {
+    color: rgb(157, 218, 134);
+}
+
+.main {
+    width: 100%;
+}
+
+.perfil {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.perfil-container {
+    padding: 0 2rem;
+}
+
+.perfil__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.perfil__info-title {
+    color: rgb(68, 63, 63);
+    margin: 0;
+}
+
+.perfil__info-description {
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.perfil__info-link-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.perfil__info-link {
+    background-color: rgb(207, 141, 97);
+    border: 0.1rem solid rgb(37, 37, 37);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    transition: all 0.5s;
+}
+
+.perfil__info-link:hover {
+    border: 0.1rem solid black;
+    background-color: rgb(172, 214, 75);
+    color: rgb(44, 44, 44);
+}
+
+.last-projects {
+    background-color: lightgray;
+    justify-content: center;
+}
+
+.experience__area,
+.opinions__media,
+.my__skills,
+.last__projects,
+.contact__me,
+.thanks {
+    background-color: lightgrey;
+    color: var(--inverse-text-color);
+    padding: 2rem 0;
+}
